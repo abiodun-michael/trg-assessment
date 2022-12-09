@@ -17,17 +17,10 @@ export class Product {
   model: string;
 
   @Prop()
-  color: string;
-
-
-  @Prop()
   price: number;
 
   @Prop()
   url: string;
-
-  @Prop()
-  scrape_target: string;
 }
 
 export const ProductSchema = SchemaFactory.createForClass(Product);
